@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_loadFromRAW"
+        android:orderInCategory="100"
+        android:title="Load Data From RAW"
+        android:onClick="clickToLoadRAW"/>
+
+    <item
+        android:id="@+id/action_SaveDataFromRAWToInternal"
+        android:orderInCategory="100"
+        android:title="Save data from raw to internal"
+        android:onClick="clickToSaveDataFromRAWToInternal"/>
+
+    <item
+        android:id="@+id/action_LoadFromInternal"
+        android:orderInCategory="100"
+        android:title="Load Data From Internal"
+        android:onClick="clickToLoadFromInternal"/>
+
+    <item
+        android:id="@+id/action_SaveDataFromInternalToExternal"
+        android:orderInCategory="100"
+        android:title="Save data from internal to SD card"
+        android:onClick="clickToSaveDataFromInternalToExternal"/>
+
+    <item
+        android:id="@+id/action_LoadFromExternal"
+        android:orderInCategory="100"
+        android:title="Load data from SD card"
+        android:onClick="clickToLoadFromExternal"/>
+
+    <item
+        android:id="@+id/action_backupDataToExternal"
+        android:orderInCategory="100"
+        android:title="Backup data SD card"
+        android:onClick="clickToBackupDataToExternal"/>
+
+    <item
+        android:id="@+id/action_restoreDataFromExternal"
+        android:orderInCategory="100"
+        android:title="Restore Data  From SD card"
+        android:onClick="clickToRestoreDataFromExternal"/>
+
+    <item
+        android:id="@+id/action_CallPreferenceActivity"
+        android:orderInCategory="100"
+        android:title="Call Preference Activity"
+        android:onClick="clickToCallPreferenceActivity"/>
+
+</menu>
